@@ -1,15 +1,10 @@
 ---
-versionFrom: 9.0.0
-versionTo: 9.0.0
+versionFrom: 8.0.0
 ---
 
 # Add Open Graph - Step 3
 
 Next step is to get the Open Graph code rendered on the website. This is done in the `head` section of the HTML, so you need to find the template for this.
-
-:::note
-This lesson has not been verified against the latest version of Umbraco.
-:::
 
 In the `Starter Kit` the head is placed in the Master Template, which is responsible for wrapping all the other templates.
 
@@ -21,9 +16,9 @@ Because you've added the Open Graph feature as a composition you can check if th
 4. Write the following before the closing `</head>` tag:
 
 ```csharp
- @if(Model is IOpenGraph){
-        @Html.Partial("../Views/Partials/OpenGraph.cshtml")
-    }
+@if(Model.Content is IOpenGraph){
+    @Html.Partial("openGraph")
+}
 ```
 
 This will render a partial view *if* the composition is present on the current page. Currently that is the case for Home and Blog posts on the site.
@@ -32,14 +27,12 @@ This will render a partial view *if* the composition is present on the current p
 
 At the end, the head should look like this:
 
-```csharp
     <head>
         ...
 
-        @if(Model is IOpenGraph){
-        @Html.Partial("../Views/Partials/OpenGraph.cshtml")
-    }
+        @if (Model.Content is IOpenGraph) {
+            @Html.Partial("openGraph")
+        }
     </head>
-```
 
 [Previous](step-2.md) - [Next](step-4.md)
