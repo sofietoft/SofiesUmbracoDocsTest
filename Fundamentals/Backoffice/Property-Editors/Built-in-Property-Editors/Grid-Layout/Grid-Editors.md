@@ -1,8 +1,3 @@
----
-versionFrom: 9.0.0
-versionFrom: 10.0.0
----
-
 # Grid Editors
 
 A grid editor is the component responsible for getting data into the grid - that could be a text field or a media picker. They're built in the same way as a property editor thus consists of 3 parts:
