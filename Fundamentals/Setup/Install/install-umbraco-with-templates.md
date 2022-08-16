@@ -23,7 +23,9 @@ Umbraco Solution             umbraco                  [C#]              Web/CMS/
 Umbraco Package              umbracopackage           [C#]              Web/CMS/Umbraco/Package/Plugin
 ```
 
-<mark style="background-color:blue;">In some cases the templates may silently fail to install (usually this is an issue with NuGet sources). If this occurs you can try specifying the NuGet source in the command by running</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">`dotnet new -i Umbraco.Templates --nuget-source "https://api.nuget.org/v3/index.json"`</mark><mark style="background-color:blue;">.</mark>
+{% hint style="info" %}
+In some cases the templates may silently fail to install (usually this is an issue with NuGet sources). If this occurs you can try specifying the NuGet source in the command by running `dotnet new -i Umbraco.Templates --nuget-source "https://api.nuget.org/v3/index.json"`.
+{% endhint %}
 
 To get **help** on a project template with `dotnet new` run the following command:
 
