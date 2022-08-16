@@ -12,15 +12,15 @@ This section will help you get up to speed with where to start as content editor
 
 There is also information on how to use features such as translations, forms, and other ways to personalize your site.
 
-[Get to know the Umbraco Backoffice](../../Fundamentals/Backoffice/)
+[Get to know the Umbraco Backoffice](../../Fundamentals/Backoffice/index.md)
 
-[The Editors Manual](../../Tutorials/Editors-Manual)
+[The Editors Manual](../../Tutorials/Editors-Manual/index.md)
 
-[What are the options for managing content?](../../Tutorials/Editors-Manual/Working-with-Content/)
+[What are the options for managing content?](../../Tutorials/Editors-Manual/Working-with-Content/index.md)
 
-[What are the options for managing media?](../../Tutorials/Editors-Manual/Media-Management/)
+[What are the options for managing media?](../../Tutorials/Editors-Manual/Media-Management/index.md)
 
-[What are the options for managing forms?](../../Add-ons/UmbracoForms/Editor/)
+[What are the options for managing forms?](../../Add-ons/UmbracoForms/Editor/index.md)
 
 :::center
 ![Editing Umbraco](images/umbraco_8_2_A.png)
