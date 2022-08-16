@@ -17,9 +17,9 @@ Copy the explicit files you wish to override in your theme, it may be a single f
 
 For Umbraco 9 and previous, it's straightforward to simply copy the files you need from the default theme folder.  Umbraco 10 distributes these files as part of a Razor class library, so you won't find them on disk. The easiest way to obtain copies of the files included in the default theme is to [download this zip file](https://our.umbraco.com/FileDownload?id=23791) and extract the ones you need.
 
-:::note
+{% hint style="info" %}
 Umbraco Forms conditional JavaScript logic depends on some CSS classes currently and it is advised that you add any additional classes you require but **do not remove those already being set**.
-:::
+{% endhint %}
 
 When using your own theme, you need to copy the `Script.cshtml` file from the `default` themes folder and amend the js references to reference your own js files. Your js files are probably best located in `/js` or `/scripts` along with your other js files. You can't put these in `/Views` since they won't be served because of restrictions on that folder by the web.config file.
 

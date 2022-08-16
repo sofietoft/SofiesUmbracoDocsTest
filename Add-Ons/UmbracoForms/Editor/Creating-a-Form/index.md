@@ -31,10 +31,10 @@ To create a Form, follow these steps:
     ![Forms designer](images/FormDesignerStartV8.png)
 5. By default, there is a page, a fieldset, and a container available. The rest of the Form has to be added using the interface.
 
-    :::note
+    {% hint style="info" %}
     In Umbraco Forms version 7 or higher, unless the feature has been disabled via configuration, there will be a predefined *Consent for storing submitted data* field added to all new Forms.
     See this blog post for more details: [Umbraco version 7.9 and Forms 7.0](https://umbraco.com/blog/umbraco-version-79-and-forms-70-is-out/)
-    :::
+    {% endhint %}
 
 6. Enter the **Name** for the Form. Let's call it _Our first form_.
     ![Forms designer Set Name](images/FormDesignerFormNameV8.png)

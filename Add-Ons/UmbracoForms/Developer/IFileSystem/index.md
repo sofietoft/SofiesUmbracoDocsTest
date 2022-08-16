@@ -5,9 +5,9 @@ versionTo: 8.0.0
 
 # Storing Form Files with IFileSystem
 
-:::note
+{% hint style="info" %}
 This article is no longer valid for Umbraco version 9 and later.
-:::
+{% endhint %}
 
 Umbraco Forms available in version 4.4.0 and up to version 8 allows you to use an `IFileSystem` to abstract how and where the physical JSON files such as Forms, Workflows and PreValues.
 
@@ -53,9 +53,9 @@ Note you may or may not have a similar looking configuration if using this provi
 </Provider>
 ```
 
-:::note
+{% hint style="info" %}
 The Azure Blob container cannot be called `forms` as this will give unexpected behaviour, and we recommend you call it `form-data` or similar.
-:::
+{% endhint %}
 
 ## Creating your own custom provider for your needs
 

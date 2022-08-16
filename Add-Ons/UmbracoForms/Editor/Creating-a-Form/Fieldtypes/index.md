@@ -47,9 +47,9 @@ By default, the following Field Types are available:
 - **Data Consent**:
     A field for the purpose of asking for data consent.
 
-    :::note
+    {% hint style="info" %}
     By default, this field is added to all new forms created with Forms version 6+.
-    :::
+    {% endhint %}
 
     ![Data Consent](images/dataconsent-v9.png)
 
