@@ -1,75 +1,46 @@
 ---
-meta.Title: "Umbraco Documentation"
+meta.Title: Umbraco Documentation
 ---
 
-<div class="docs-overview">
-<div class="row">
-    <div class="col-xs-12">
-        <h1 class="text-center" style="font-size:3rem">Documentation for Umbraco</h1>
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm-6">
-        <a href="Getting-Started/" class="docs-section">
-            <img src="images/devices.png" width="130" alt="">
-            <h2>Getting Started</h2>
-            <p>All the basics of using Umbraco. From your first local installation, to a fully functional customized CMS.</p>
-        </a>
-    </div>
-    <div class="col-sm-6">
-        <a href="Implementation/" class="docs-section">
-        <img src="images/code.png" width="130" alt="">
-            <h2>Implementation</h2>
-            <p>Get an overview of how the Umbraco pipeline is structured. Learn how to write queries and use the APIs.</p>
-        </a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm-6">
-        <a href="Extending/" class="docs-section">
-        <img src="images/headless.png" width="130"  alt="">
-            <h2>Extending</h2>
-            <p>Documentation on the areas in Umbraco that are extendable such as customizing backoffice UI and creating packages.</p>
-        </a>
-    </div>
-    <div class="col-sm-6">
-        <a href="Reference/" class="docs-section">
-            <img src="images/documents.png" width="130" alt="">
-            <h2>Developers' Reference</h2>
-            <p>Code reference for Umbraco's management APIs, templating, querying, searching and more.</p>
-        </a>
-    </div>
-</div>
-</div>
-</br>
+# README
 
----
+## Documentation for Umbraco
 
-### [Tutorials](Tutorials/index.md)
-Step by step tutorials.
+[![](https://github.com/sofietoft/SofiesUmbracoDocsTest/blob/vLatest/images/devices.png)](https://github.com/sofietoft/SofiesUmbracoDocsTest/blob/vLatest/Getting-Started/README.md)[![](https://github.com/sofietoft/SofiesUmbracoDocsTest/blob/vLatest/images/code.png)](https://github.com/sofietoft/SofiesUmbracoDocsTest/blob/vLatest/Implementation/README.md)[![](https://github.com/sofietoft/SofiesUmbracoDocsTest/blob/vLatest/images/headless.png)](https://github.com/sofietoft/SofiesUmbracoDocsTest/blob/vLatest/Extending/README.md)[![](https://github.com/sofietoft/SofiesUmbracoDocsTest/blob/vLatest/images/documents.png)](https://github.com/sofietoft/SofiesUmbracoDocsTest/blob/vLatest/Reference/README.md)\
 
-### [Umbraco Add ons](Add-ons/index.md)
+
+***
+
+#### [Tutorials](broken-reference)
+
+Step by step tutorials. Hej!
+
+#### [Umbraco Add ons](https://github.com/sofietoft/SofiesUmbracoDocsTest/blob/vLatest/Add-ons/index.md)
+
 Everything you need to know about Forms and Courier, the two premium packages developed and supported by HQ.
 
-### [Development Guidelines](Development-Guidelines/index.md)
+#### [Development Guidelines](https://github.com/sofietoft/SofiesUmbracoDocsTest/blob/vLatest/Development-Guidelines/index.md)
+
 How to work with the Umbraco codebase.
 
-### [Cheatsheets](Cheatsheets/index.md)
+#### [Cheatsheets](https://github.com/sofietoft/SofiesUmbracoDocsTest/blob/vLatest/Cheatsheets/index.md)
+
 Cheatsheets for overview of different areas like the Razor API and Views syntax.
 
-### [Umbraco Cloud](Umbraco-Cloud/)
+#### [Umbraco Cloud](https://github.com/sofietoft/SofiesUmbracoDocsTest/blob/vLatest/Umbraco-Cloud/README.md)
+
 How to use Umbraco Cloud: Get started, set up your Umbraco Cloud project, deploy and troubleshoot issues.
 
-### [Umbraco Heartcore](Umbraco-Heartcore/) 
+#### [Umbraco Heartcore](https://github.com/sofietoft/SofiesUmbracoDocsTest/blob/vLatest/Umbraco-Heartcore/README.md)
+
 How to use Umbraco Heartcore: Getting started, API Documentation and client libraries.
 
+***
 
----
+#### Contributing
 
-### Contributing
-*The documentation project is open source and hosted on GitHub. If you have any corrections or additions to the documentation clone the project and make a pull request. 
+\*The documentation project is open source and hosted on GitHub. If you have any corrections or additions to the documentation clone the project and make a pull request.
 
-[Getting Started](https://github.com/umbraco/UmbracoDocs/blob/master/CONTRIBUTING.md) contributing to the documentation. 
-[Guidelines](https://our.umbraco.com/documentation/Contribute/) for Umbraco documentation*
+[Getting Started](https://github.com/umbraco/UmbracoDocs/blob/master/CONTRIBUTING.md) contributing to the documentation. [Guidelines](https://our.umbraco.com/documentation/Contribute/) for Umbraco documentation\*
 
-----------------
+***
