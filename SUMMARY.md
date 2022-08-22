@@ -35,3 +35,10 @@
 
 * [Creating a basic website](Tutorials/Creating-Basic-Site/index.md)
 * [Editors Manual](Tutorials/Editors-Manual/index.md)
+* [How to create a Property Editor](tutorials/how-to-create-a-property-editor.md)
+* [Customize the dashboard even more](tutorials/customize-the-dashboard-even-more.md)
+* [How to create a custom Dashboard](tutorials/how-to-create-a-custom-dashboard.md)
+
+## Reference
+
+* [Technical Stuff](reference/technical-stuff.md)
