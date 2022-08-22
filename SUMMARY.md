@@ -6,7 +6,6 @@
 
 * [Getting Started](Getting-Started/index.md)
   * [Editing websites with Umbraco](Getting-Started/Editing-websites-with-Umbraco/index.md)
-  * [Creating websites with Umbraco](Getting-Started/Creating-websites-with-Umbraco/index.md)
   * [Developing websites with Umbraco](Getting-Started/Developing-websites-with-Umbraco/index.md)
     * [Extending Umbraco](Getting-Started/Developing-websites-with-Umbraco/Extending-the-Umbraco-Backoffice/index.md)
     * [Customizing Umbraco](Getting-Started/Developing-websites-with-Umbraco/Customizing-Umbraco-sites/index.md)
