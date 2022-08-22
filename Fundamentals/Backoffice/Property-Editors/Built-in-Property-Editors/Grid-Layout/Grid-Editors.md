@@ -1,8 +1,3 @@
----
-versionFrom: 9.0.0
-versionFrom: 10.0.0
----
-
 # Grid Editors
 
 A grid editor is the component responsible for getting data into the grid - that could be a text field or a media picker. They're built in the same way as a property editor thus consists of 3 parts:
@@ -13,18 +8,17 @@ A grid editor is the component responsible for getting data into the grid - that
 
 The view is what the editor sees, the controller handles how it acts and the cshtml determines how the entered data is rendered in the template.
 
-### Default configuration
+## Default configuration
 
-Grid editors are specified in `/config/grid.editors.config.js`. By default this file doesn't exist, so before you attempt to extend the configuration, make sure to create it first. 
+Grid editors are specified in `/config/grid.editors.config.js`. By default this file doesn't exist, so before you attempt to extend the configuration, make sure to create it first.
 
-The default items in the config file are as follows below. It is recommended that you copy all of editors below before you add more, in case some of them are already in use. 
+The default items in the config file are as follows below. It is recommended that you copy all of editors below before you add more, in case some of them are already in use.
 
 If you don't add the editors below to this config file then they won't be available in your grid editors, even if there are existing grid datatypes already using these editors.
 
 :::tip
 You will need to restart your site before any new customizations become available to use.
 :::
-
 
 ```json
 [
@@ -96,7 +90,7 @@ Grid editor are created in the JSON format and each editor is an object like so:
 
 You can customize the built-in editors to tailor the grid to your need.
 
-##### package.manifest
+#### package.manifest
 
 It is recommended that you define custom editors in a `package.manifest` file (not in the config file described above) like so:
 
