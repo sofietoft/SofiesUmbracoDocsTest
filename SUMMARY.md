@@ -36,8 +36,8 @@
 * [Creating a basic website](Tutorials/Creating-Basic-Site/index.md)
 * [Editors Manual](Tutorials/Editors-Manual/index.md)
 * [How to create a Property Editor](tutorials/how-to-create-a-property-editor.md)
-* [How to create a custom Dashboard](tutorials/how-to-create-a-custom-dashboard/README.md)
-  * [Customize the dashboard even more](tutorials/how-to-create-a-custom-dashboard/customize-the-dashboard-even-more.md)
+* [Customize the dashboard even more](tutorials/customize-the-dashboard-even-more.md)
+* [How to create a custom Dashboard](tutorials/how-to-create-a-custom-dashboard.md)
 
 ## Reference
 
