@@ -38,3 +38,7 @@
 * [How to create a Property Editor](tutorials/how-to-create-a-property-editor.md)
 * [How to create a custom Dashboard](tutorials/how-to-create-a-custom-dashboard/README.md)
   * [Customize the dashboard even more](tutorials/how-to-create-a-custom-dashboard/customize-the-dashboard-even-more.md)
+
+## Reference
+
+* [Technical Stuff](reference/technical-stuff.md)
