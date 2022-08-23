@@ -3,19 +3,17 @@ versionFrom: 9.0.0
 versionTo: 10.0.0
 ---
 
-# Install Umbraco with Visual Studio Code
+# VS Code
 
 Follow these steps to set up an Umbraco project with VS Code. The benefit of using VS Code is that it is super quick to get up and running.
 
 ## Installing and setting up VS Code
 
 1. Go to [https://code.visualstudio.com/](https://code.visualstudio.com/) and download VS Code for free.
-
 2. Once installed, launch VS Code.
+3.  Click the extensions menu at the bottom on the left side. Then search for **C#**, install it then press reload.
 
-3. Click the extensions menu at the bottom on the left side. Then search for **C#**, install it then press reload.
-
-    ![VS Code install extension](images/VsCode/VsCodeExtension.png)
+    <img src="images/VsCode/VsCodeExtension.png" alt="VS Code install extension" data-size="original">
 
 ## Creating your Umbraco project
 
@@ -37,7 +35,7 @@ Select "Create task.json from template"
 
 ![Create task from template](images/VsCode/TaskJsonFromTemplate.png)
 
-Now select ".NET Core" as your template. 
+Now select ".NET Core" as your template.
 
 ![Create .NET Core Template](images/VsCode/NetcoreTemplate.png)
 
@@ -59,18 +57,14 @@ With that, you're ready to run! Press F5, or click the little green play button 
 
 This section continues from where we left off but covers the installation and configuration of Umbraco inside your web browser when you run Umbraco for the first time.
 
-1. You will see the install screen. If you've installed the template with `-ce` flag, to enable SqlCE, you only need to fill out your information and click "Install", the installer will take care of the rest. If you've enabled SqlCE, but still want to change the database type, click "Customize". If you didn't enable SqlCE, you will see a "Next" button instead of "Install", which will take you to an extra step where you can configure your database.
+1.  You will see the install screen. If you've installed the template with `-ce` flag, to enable SqlCE, you only need to fill out your information and click "Install", the installer will take care of the rest. If you've enabled SqlCE, but still want to change the database type, click "Customize". If you didn't enable SqlCE, you will see a "Next" button instead of "Install", which will take you to an extra step where you can configure your database.
 
-    ![Web Installer - Lets Get Started](images/VsCode/installer-v9.png)
+    <img src="images/VsCode/installer-v9.png" alt="Web Installer - Lets Get Started" data-size="original">
+2.  When the installer is done you will automatically be logged into the backoffice.
 
-2. When the installer is done you will automatically be logged into the backoffice.
-
-    ![Web Installer - Install Complete](images/VsCode/dashboard-v8.png)
-
+    <img src="images/VsCode/dashboard-v8.png" alt="Web Installer - Install Complete" data-size="original">
 3. Celebrate - you're all done!
 
 Congratulations, you have installed an Umbraco site!
 
-:::note
-You can log into your Umbraco site by entering the following into your browser: http://yoursite.com/umbraco/.
-:::
+:::note You can log into your Umbraco site by entering the following into your browser: http://yoursite.com/umbraco/. :::

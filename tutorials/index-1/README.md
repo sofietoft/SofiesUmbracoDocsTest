@@ -1,17 +1,19 @@
 ---
-meta.Title: "Editors Manual for Umbraco 8"
-meta.Description: "How-tos and best practices for working with the Umbraco backoffice as a content editor."
+meta.Title: Editors Manual for Umbraco 8
+meta.Description: >-
+  How-tos and best practices for working with the Umbraco backoffice as a
+  content editor.
 versionFrom: 8.0.0
 versionTo: 10.0.0
 ---
 
-# Editor's Manual
+# Editors Manual
 
 The editor’s manual is a detailed user guide aimed at Umbraco editors for step-by-step instructions on performing everyday tasks with Umbraco.
 
 ## Introduction
 
-Umbraco is an information platform that allows you to quickly publish information onto a website without the need for any prior knowledge of web page editing. It is designed to be  powerful and flexible enough to enable user's full control of their website content.
+Umbraco is an information platform that allows you to quickly publish information onto a website without the need for any prior knowledge of web page editing. It is designed to be powerful and flexible enough to enable user's full control of their website content.
 
 No special skills are required to create, publish, and manage web pages and related content with Umbraco. Any prior web page editing experience you may have might prove useful in terms of understanding what you want your website to do. Anything you can do using HTML can also be done in Umbraco.
 
@@ -21,22 +23,22 @@ Umbraco is designed to be intuitive and straightforward, so this manual aims to 
 
 Happy editing!
 
-## [Getting Started With Umbraco](Getting-Started-With-Umbraco/)
+## [Getting Started With Umbraco](../../Tutorials/Editors-Manual/Getting-Started-With-Umbraco/)
 
 Showing you the ropes on getting started with Umbraco. A walkthrough on how to log in, create and publish content, working with pages.
 
-## [Working With Rich Text Editor](Working-with-Content/)
+## [Working With Rich Text Editor](../../Tutorials/Editors-Manual/Working-with-Content/)
 
 How to use the Rich Text Editor.
 
-## [Version Management](Version-Management/)
+## [Version Management](../../Tutorials/Editors-Manual/Version-Management/)
 
 How to compare versions and roll back different versions of content.
 
-## [Media Management](Media-Management/)
+## [Media Management](../../Tutorials/Editors-Manual/Media-Management/)
 
 How to work with media, organize folders, and do image editing.
 
-## [Tips and Tricks](Tips-and-Tricks/)
+## [Tips and Tricks](../../Tutorials/Editors-Manual/Tips-and-Tricks/)
 
 Providing a few tips and tricks on how to work with Content using Umbraco.
