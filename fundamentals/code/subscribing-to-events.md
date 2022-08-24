@@ -1,15 +1,15 @@
 ---
-meta.title: "Subscribing to events"
-meta.description: "Subscribing to events allows you to execute custom code on a number of events both before and after the event occurs"
+meta.title: Subscribing to events
+meta.description: >-
+  Subscribing to events allows you to execute custom code on a number of events
+  both before and after the event occurs
 versionFrom: 8.0.0
 versionRemoved: 9.0.0
 ---
 
 # Subscribing to events
 
-:::note
-This article is only relevant if you are using Umbraco 9+. For older versions see the [Subscribing to events article](../Subscribing-To-Events).
-:::
+:::note This article is only relevant if you are using Umbraco 9+. For older versions see the [Subscribing to events article](../Subscribing-To-Events/). :::
 
 Subscribing to events allows you to execute custom code on several events both before and after the event occurs. All you need to follow this guide is an Umbraco installation with some content, e.g. the Umbraco starter kit.
 
@@ -17,7 +17,7 @@ Subscribing to events allows you to execute custom code on several events both b
 
 Let's add a string of text to the log when a document is published. The log is useful for debugging, different parts of the Umbraco codebase 'log' key events, warnings, and errors to the log.
 
-We subscribe to events in Umbraco inside a Component, let's create one, add a new c# class to our project - call it *LogWhenPublishedComponent*. and use `: IComponent` to identify our code as a Component. We'll need to add `using Umbraco.Core.Composing;` to the top of the .cs file and because the events that you can subscribe to in Umbraco are found in the core services namespace we'll also need to add a using statement for that too: `using Umbraco.Core;` and `using Umbraco.Core.Services.Implement;`.
+We subscribe to events in Umbraco inside a Component, let's create one, add a new c# class to our project - call it _LogWhenPublishedComponent_. and use `: IComponent` to identify our code as a Component. We'll need to add `using Umbraco.Core.Composing;` to the top of the .cs file and because the events that you can subscribe to in Umbraco are found in the core services namespace we'll also need to add a using statement for that too: `using Umbraco.Core;` and `using Umbraco.Core.Services.Implement;`.
 
 ```csharp
 using System;
@@ -98,9 +98,7 @@ public void Terminate()
 }
 ```
 
-:::note
-When you subscribe to static events you should also unsubscribe from them when Umbraco shuts down, see the Terminate() method in the example using the -= syntax to achieve the unsubscribing.
-:::
+:::note When you subscribe to static events you should also unsubscribe from them when Umbraco shuts down, see the Terminate() method in the example using the -= syntax to achieve the unsubscribing. :::
 
 Let's check if this works by adding a message to the log every time the publish event occurs.
 
@@ -156,7 +154,7 @@ public class LogWhenPublishedComposer : ComponentComposer<LogWhenPublishedCompon
 }
 ```
 
-You can read more about Composers [in the **Composing** article](../../../Implementation/Composing/index.md). There you can also learn about [the different options for RunTimeLevel](../../../Implementation/Composing/index.md#runtimelevel).
+You can read more about Composers [in the **Composing** article](../../Implementation/Composing/index.md). There you can also learn about [the different options for RunTimeLevel](../../Implementation/Composing/index.md#runtimelevel).
 
 The entire class should look like this:
 
@@ -214,11 +212,11 @@ namespace MyProjectName.Web.Components
 
 Now go to the Umbraco backoffice and publish a piece of content. Switch to the Settings section and find the Log Viewer in the Settings tree:
 
-![Log Viewer](images/log-viewer.png)
+![Log Viewer](../Code/images/log-viewer.png)
 
 Search 'All Logs', and if all is wired up correctly you should discover your custom publish log message entries:
 
-![Messages in Log](images/log-messages.png)
+![Messages in Log](../Code/images/log-messages.png)
 
 ### Before and after
 
@@ -226,5 +224,5 @@ As you can see our custom code has been executed when we published a piece of co
 
 ### More information
 
-- [Events Reference](../../../Reference/Events/)
-- [Components & Composing](../../../Implementation/Composing/)
+* [Events Reference](../../Reference/Events/)
+* [Components & Composing](../../Implementation/Composing/)

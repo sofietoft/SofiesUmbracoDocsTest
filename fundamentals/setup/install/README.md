@@ -1,8 +1,8 @@
 ---
 versionFrom: 9.0.0
 versionTo: 10.0.0
-meta.Title: "Installing Umbraco"
-meta.Description: "Instructions on installing Umbraco on various platforms using various tools."
+meta.Title: Installing Umbraco
+meta.Description: Instructions on installing Umbraco on various platforms using various tools.
 ---
 
 # Installation
@@ -40,9 +40,8 @@ Learn how to run an already installed local installation of Umbraco.
 
 ## [Visual Studio installation](visual-studio.md)
 
-Visual Studio is used to write native code and managed code supported by .NET and many others.
-Its built-in tools provide the ability to develop and execute applications for any platform. Developers will be able to install Umbraco without ever having to leave Visual Studio.
+Visual Studio is used to write native code and managed code supported by .NET and many others. Its built-in tools provide the ability to develop and execute applications for any platform. Developers will be able to install Umbraco without ever having to leave Visual Studio.
 
-## [Install Umbraco unattended](Unattended-Install.md)
+## [Install Umbraco unattended](../../Setup/install/Unattended-Install.md)
 
 Use the Unattended installs when spinning up Umbraco instances on something like Azure Web Apps to avoid having to run through the installation wizard.

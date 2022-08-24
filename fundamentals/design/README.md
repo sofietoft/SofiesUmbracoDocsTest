@@ -5,22 +5,22 @@ versionTo: 10.0.0
 
 # Design
 
-## [Templates](Templates/)
+## [Templates](../Design/Templates/)
 
 Creating, managing, and reusing templates in Umbraco.
 
-## [Rendering content](Rendering-Content/)
+## [Rendering content](../Design/Rendering-Content/)
 
 Querying and rendering published content.
 
-## [Rendering media](Rendering-Media/)
+## [Rendering media](../Design/Rendering-Media/)
 
 Querying and rendering media items.
 
-## [Partial Views](Partial-Views/)
+## [Partial Views](../Design/Partial-Views/)
 
 Working with partial views in Umbraco's templates.
 
-## [Stylesheets and JavaScript](Stylesheets-JavaScript/)
+## [Stylesheets and JavaScript](../Design/Stylesheets-JavaScript/)
 
 Working with CSS and JavaScript in Umbraco's templates.

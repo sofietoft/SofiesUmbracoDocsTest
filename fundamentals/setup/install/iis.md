@@ -1,6 +1,6 @@
 ---
-meta.Title: "Local IIS with Umbraco 9"
-meta.Description: "This article describes how to run an Umbraco 9 site on a local IIS server."
+meta.Title: Local IIS with Umbraco 9
+meta.Description: This article describes how to run an Umbraco 9 site on a local IIS server.
 versionFrom: 9.0.0
 versionTo: 10.0.0
 ---
@@ -15,15 +15,13 @@ The guide will assume you already have IIS configured and know your way around i
 
 First, you need to ensure you have "Development time IIS support installed". To check this, go to the Visual Studio installer, click modify and check on the right side under "ASP.NET and web development":
 
-![Checking the IIS module exists](images/iis-module.png)
+![Checking the IIS module exists](../../Setup/install/images/iis-module.png)
 
 Once that is installed you should set up a new IIS site - and make sure to add the hostname to your hosts file as well. Here is my setup for an example:
 
-![IIS site example](images/iis-site.png)
+![IIS site example](../../Setup/install/images/iis-site.png)
 
-:::note
-For the path you want to point it at the root of your site - where the `.csproj` file is.
-:::
+:::note For the path you want to point it at the root of your site - where the `.csproj` file is. :::
 
 ## Add new launch profile
 
@@ -103,8 +101,8 @@ You can add a new profile called IIS, and point it at your local domain. Here it
 
 At this point IIS will be added to the launch profiles, and you can run the site from Visual Studio by choosing IIS in the dropdown:
 
-![Launch profiles](images/launchprofiles.png)
+![Launch profiles](../../Setup/install/images/launchprofiles.png)
 
 And finally the site is running from your local IIS:
 
-![Local IIS site](images/voila.png)
+![Local IIS site](../../Setup/install/images/voila.png)

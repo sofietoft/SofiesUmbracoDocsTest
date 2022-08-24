@@ -1,13 +1,13 @@
 ---
-meta.Title: "Named Sections in Umbraco"
-meta.Description: "Using named sections in Umbraco"
+meta.Title: Named Sections in Umbraco
+meta.Description: Using named sections in Umbraco
 versionFrom: 7.0.0
 versionTo: 10.0.0
 ---
 
 # Named Sections
 
-Template sections support the ability to add additional *Named Sections* to layout templates. These sections can be defined anywhere in the layout file (including within the <head> section of the HTML) and allow you to output dynamic content in your template.
+Template sections support the ability to add additional _Named Sections_ to layout templates. These sections can be defined anywhere in the layout file (including within the section of the HTML) and allow you to output dynamic content in your template.
 
 ## Defining a Named Section
 
@@ -32,10 +32,8 @@ For example, you can define the following section within a child template like a
 To define a Named Section, follow these steps:
 
 1. Go to **Settings**.
-2. Navigate to a template and click **Sections**.
-    ![Sections Menu](images/Sections-option.png)
-3. Select **Define a named section** and enter the **Section Name**.
-    ![Define Named Sections Menu](images/Define-named-section.png)
+2. Navigate to a template and click **Sections**. ![Sections Menu](../Design/images/Sections-option.png)
+3. Select **Define a named section** and enter the **Section Name**. ![Define Named Sections Menu](../Design/images/Define-named-section.png)
 4. Click **Submit**.
 
 ## Render a Name Section
@@ -51,9 +49,7 @@ For example, you can define the following section within a Master template:
 To render a Named Section, follow these steps:
 
 1. Go to **Settings**.
-2. Navigate to a template and click **Sections**.
-    ![Sections Menu](images/Sections-option.png)
-3. Select **Render a named section** and enter the **Section Name**.
-    ![Render Named Sections Menu](images/Render-named-sections.png)
-4. [Optional] Select **Section is mandatory**. This means that the child templates need to have the named section defined for them to work.
+2. Navigate to a template and click **Sections**. ![Sections Menu](../Design/images/Sections-option.png)
+3. Select **Render a named section** and enter the **Section Name**. ![Render Named Sections Menu](../Design/images/Render-named-sections.png)
+4. \[Optional] Select **Section is mandatory**. This means that the child templates need to have the named section defined for them to work.
 5. Click **Submit**.

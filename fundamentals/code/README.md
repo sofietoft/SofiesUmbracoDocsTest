@@ -5,22 +5,22 @@ versionTo: 10.0.0
 
 # Code
 
-## [Using Umbraco's Service APIs](Umbraco-Services/)
+## [Using Umbraco's Service APIs](../Code/Umbraco-Services/)
 
 Create and update entities in Umbraco from code.
 
-## [Subscribing to events](Subscribing-To-Events/)
+## [Subscribing to events](../Code/Subscribing-To-Events/)
 
 Using events to modify content or run custom code.
 
-## [Creating Forms](Creating-Forms/)
+## [Creating Forms](../Code/Creating-Forms/)
 
 Create, submit and handle HTML forms with controllers.
 
-## [Debugging your Umbraco site](Debugging/)
+## [Debugging your Umbraco site](../Code/Debugging/)
 
 Using Tracing and MiniProfiler to debug your code.
 
-## [Source/Version Control](Source-Control/)
+## [Source/Version Control](../Code/Source-Control/)
 
 General advice on source controlling your Umbraco implementation.

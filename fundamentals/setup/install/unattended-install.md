@@ -13,20 +13,18 @@ This article will give you the details you need to install Umbraco unattended.
 
 ## Get clean install of Umbraco
 
-In order to get a clean instance of Umbraco either follow our installation guide for how to [Install an Umbraco project template](./install-umbraco-with-templates.md/#InstallUmbracowith.NETCLI) or download a zip file directly from [Downloads](https://our.umbraco.com/download).
+In order to get a clean instance of Umbraco either follow our installation guide for how to [Install an Umbraco project template](install-umbraco-with-templates.md#InstallUmbracowith.NETCLI) or download a zip file directly from [Downloads](https://our.umbraco.com/download).
 
 ## Configure your database
 
 As you will not be running through the installation wizard when using the unattended installs feature, you need to manually tell Umbraco which database to use.
 
-* Set up and configure a new database - see [Requirements](../Requirements/#hosting) for details.
+* Set up and configure a new database - see [Requirements](../../Setup/Requirements/#hosting) for details.
 * Add the connection string using configuration.
 
-:::tip
-Umbraco can create a SQL Server database for you during the unattended install process if the user specified by the credentials in your connection string has the `CREATE DATABASE` permission granted and the global setting [InstallMissingDatabase](/documentation/Reference/V9-Config/GlobalSettings/#install-missing-database) is set to `true`.
+:::tip Umbraco can create a SQL Server database for you during the unattended install process if the user specified by the credentials in your connection string has the `CREATE DATABASE` permission granted and the global setting [InstallMissingDatabase](../../../documentation/Reference/V9-Config/GlobalSettings/#install-missing-database) is set to `true`.
 
-If your connection string is for SQL CE or SQL Server Express LocalDB it is assumed that a database should be created when missing regardless of the value of the `InstallMissingDatabase` setting.
-:::
+If your connection string is for SQL CE or SQL Server Express LocalDB it is assumed that a database should be created when missing regardless of the value of the `InstallMissingDatabase` setting. :::
 
 Example in appsettings.json
 
@@ -63,7 +61,7 @@ Alternatively you may set your configuration with Environment Variables or other
 
 The keys for this would then be as follows:
 
-```none
+```
 Umbraco__CMS__Unattended__InstallUnattended
 Umbraco__CMS__Unattended__UnattendedUserName
 Umbraco__CMS__Unattended__UnattendedUserEmail
@@ -76,15 +74,15 @@ After completing the steps above you can now initialize the installation by boot
 
 Once it has completed, you should see the following when visiting the frontend of the site.
 
-![Frontend of Umbraco site installed using the unattended installs feature](images/Unattended/final-screen.png)
+![Frontend of Umbraco site installed using the unattended installs feature](../../Setup/install/images/Unattended/final-screen.png)
 
 ## Configuration options
 
 Depending on your preferences, you can use any type of configuration to specify the connection string and login information, as well as enable unattended install. With the extending configuration functionality, it is possible to read from all kinds of sources. One example can be using a JSON file or environment variables.
 
-**Program.cs** has a condition, which if met, an *appsettings.Local.json* file will be added and configured as a configuration source.
+**Program.cs** has a condition, which if met, an _appsettings.Local.json_ file will be added and configured as a configuration source.
 
-```c#
+```
 #if DEBUG
   .ConfigureAppConfiguration(config
     => config.AddJsonFile(
@@ -126,4 +124,4 @@ dotnet new umbraco -n MyNewProject --friendly-name "Friendly User" --email user@
 
 ### Visual Studio
 
-![Set up unattended install through Visual Studio](images/Unattended/VS-unattended-install.png)
+![Set up unattended install through Visual Studio](../../Setup/install/images/Unattended/VS-unattended-install.png)
