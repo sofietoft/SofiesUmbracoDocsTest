@@ -1,6 +1,6 @@
 # Table of contents
 
-* [README](README.md)
+* [Welcome to the Umbraco Documentation](README.md)
 
 ## Fundamentals
 
