@@ -13,7 +13,7 @@
   * [Subscribing to events](fundamentals/code/subscribing-to-events.md)
   * [Subscribing to notifications](fundamentals/code/subscribing-to-notifications.md)
   * [Using Umbraco's service APIs](fundamentals/code/umbraco-services.md)
-* [data](fundamentals/data/README.md)
+* [Data](fundamentals/data/README.md)
   * [Using Tabs](fundamentals/data/adding-tabs.md)
   * [Content Version Cleanup](fundamentals/data/content-version-cleanup.md)
   * [Defining content](fundamentals/data/defining-content.md)
