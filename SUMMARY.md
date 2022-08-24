@@ -125,3 +125,4 @@
 ## Reference
 
 * [Technical Stuff](reference/technical-stuff.md)
+* [Common Pitfalls and Anipatterns](reference/common-pitfalls-and-anipatterns.md)
