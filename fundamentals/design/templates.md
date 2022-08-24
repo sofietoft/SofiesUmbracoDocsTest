@@ -1,6 +1,6 @@
 ---
-meta.Title: "Templates in Umbraco"
-meta.Description: "Templating in Umbraco including inheriting from master template"
+meta.Title: Templates in Umbraco
+meta.Description: Templating in Umbraco including inheriting from master template
 versionFrom: 8.0.0
 versionTo: 10.0.0
 ---
@@ -15,13 +15,13 @@ By default, all document types should have a template attached - but in case you
 
 Open the **Settings** section inside the Umbraco backoffice and right-click the **Templates** folder. Choose **Create**. Enter a template name and click the **Save** button. You will now see the default template markup in the backoffice template editor.
 
-![Created template](images/create-template-v8.png)
+![Created template](../Design/images/create-template-v8.png)
 
 ## Allowing a Template on a Document Type
 
 To use a template on a document, you must first allow it on the content's type. Open the document type you want to use the template, go to the Templates tab and select the template under the **Allowed Templates** section.
 
-![Allowing template](images/allow-template-v8.png)
+![Allowing template](../Design/images/allow-template-v8.png)
 
 ## Inheriting a Master Template
 
@@ -43,7 +43,7 @@ A template can inherit content from a master template by using the ASP.NET views
 
 We then create a new template called **textpage** and in the template editor, click on the **Master Template** button and set its master template to the template called **MasterView**:
 
-![Inherit template](images/inherit-template-v8.png)
+![Inherit template](../Design/images/inherit-template-v8.png)
 
 This changes the `Layout`value in the template markup, so **textpage** looks like this:
 
@@ -75,7 +75,7 @@ When a page using the textpage template renders, the final HTML will be merged r
 
 What's good to know, is that you are not limited to a single section. Template sections allow child templates that inherit the master layout template to insert HTML code up into the main layout template. For example, a child template inserting code into the `<head>` tag of the master template.
 
-You can do this by using [named sections](https://www.youtube.com/watch?v=lrnJwglbGUA).  Add named sections to your master template with the following code:
+You can do this by using [named sections](https://www.youtube.com/watch?v=lrnJwglbGUA). Add named sections to your master template with the following code:
 
 ```csharp
 @RenderSection("SectionName")
@@ -106,7 +106,7 @@ By default, when rendering a named section, the section is not mandatory. To mak
 @RenderSection("Head", true)
 ```
 
-![Create partial](images/render-named-sections-v10.png)
+![Create partial](../Design/images/render-named-sections-v10.png)
 
 On your child page template call `@section Head {}` and then type your markup that will be pushed into the Master Template:
 
@@ -126,7 +126,7 @@ Another way to reuse HTML is to use partial views - which are small reusable vie
 
 Like templates, create a partial view, by right-clicking **Partial Views** and selecting **Create**. You can then either create an empty partial view or create a partial view from a snippet.
 
-![Create partial](images/create-partial-v8.png)
+![Create partial](../Design/images/create-partial-v8.png)
 
 The created partial view can now be injected into any template by using the `@Html.Partial()` method like so:
 
@@ -142,14 +142,14 @@ The created partial view can now be injected into any template by using the `@Ht
 
 ### Related Articles
 
-- [Basic Razor syntax](basic-razor-syntax.md)
-- [Rendering content](../Rendering-Content/)
-- [Named Sections](named-sections.md)
+* [Basic Razor syntax](basic-razor-syntax.md)
+* [Rendering content](../Rendering-Content/)
+* [Named Sections](named-sections.md)
 
 ### Tutorials
 
-- [Creating a basic website with Umbraco](../../../Tutorials/Creating-Basic-Site/)
+* [Creating a basic website with Umbraco](../../Tutorials/Creating-Basic-Site/)
 
 ### [Umbraco Learning Base](https://www.youtube.com/channel/UCbGfwSAPflebnadyhEPw-wA)
 
-- [Playlist: Templates in Umbraco](https://www.youtube.com/playlist?list=PLgX62vUaGZsFmzmm4iFKeL41CZ5YFw09z)
+* [Playlist: Templates in Umbraco](https://www.youtube.com/playlist?list=PLgX62vUaGZsFmzmm4iFKeL41CZ5YFw09z)

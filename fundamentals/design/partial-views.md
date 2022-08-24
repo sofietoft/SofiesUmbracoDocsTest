@@ -1,8 +1,8 @@
 ---
 versionFrom: 7.0.0
 versionTo: 10.0.0
-meta.Title: "Partial Views"
-meta.Description: "Information on working with partial views in Umbraco"
+meta.Title: Partial Views
+meta.Description: Information on working with partial views in Umbraco
 ---
 
 # Partial Views
@@ -13,7 +13,7 @@ A Partial View (`.cshtml` file) is a regular view that can be used multiple time
 
 You can create and edit partial views in the **Partial Views** folder from the **Settings** section of the Backoffice.
 
-![Creating a new partial view](images/creating-partial-view.png)
+![Creating a new partial view](../Design/images/creating-partial-view.png)
 
 In the **Create** menu, there are three options available:
 
@@ -25,7 +25,7 @@ In the **Create** menu, there are three options available:
 
 To create a partial view, go to the **Settings** section in the Umbraco backoffice and right-click the **Partial Views** folder. Choose **Create**. Select **New empty partial view** and enter a partial view name and click the **Save** button. You will now see the partial view markup in the backoffice editor.
 
-![Created partial view](images/created-partial-view.png)
+![Created partial view](../Design/images/created-partial-view.png)
 
 By default, the partial view is saved in the `Views/Partials` folder in the solution.
 
@@ -33,16 +33,16 @@ By default, the partial view is saved in the `Views/Partials` folder in the solu
 
 To create a partial view from the snippet, go to the **Settings** section in the Umbraco backoffice and right-click the **Partial Views** folder. Choose **Create**. Select **New empty partial view from snippet**. Select the snippet you want to create a partial view for and enter a partial view name. The code snippet you selected is displayed in the backoffice editor. Click the **Save** button.
 
-![Created partial view from snippet](images/created-partial-view-from-snippet.png)
+![Created partial view from snippet](../Design/images/created-partial-view-from-snippet.png)
 
 By default, the partial view is saved in the `Views/Partials` folder in the solution. Umbraco provides the following partial view snippets:
 
 * Empty - Creates an empty partial view file.
 * Breadcrumb - Creates a breadcrumb of parents using the `Ancestors()` method to generate links in an unordered HTML list. It displays the name of the current page without a link.
 * Edit Profile - Creates a Member profile model that can be edited.
-* List Ancestors From Current Page -  Displays a list of links to the parents of the current page using the `Ancestors()` method to generate links in an unordered HTML list. It displays the name of the current page without a link.
+* List Ancestors From Current Page - Displays a list of links to the parents of the current page using the `Ancestors()` method to generate links in an unordered HTML list. It displays the name of the current page without a link.
 * List Child Pages From Current Page - Displays a list of links to the children of the current page using the `Children()` method to generate links in an unordered HTML list.
-* List Child Pages Ordered By Date -  Displays a list of links to the children of the current page using the `Children()` method to generate links in an unordered HTML list. The pages are sorted by the creation date in a descending order using the `OrderByDescending()` method.
+* List Child Pages Ordered By Date - Displays a list of links to the children of the current page using the `Children()` method to generate links in an unordered HTML list. The pages are sorted by the creation date in a descending order using the `OrderByDescending()` method.
 * List Child Pages Ordered By Name - Displays a list of links to the children of the current page using the `Children()` method to generate links in an unordered HTML list. The pages are sorted by the page name using the `OrderBy()` method.
 * List Child Pages With DocType - Displays only the children of a certain Document Type.
 * List Descendants From Current Page - Displays a list of links for every page below the current page in an unordered HTML list.
@@ -57,7 +57,7 @@ By default, the partial view is saved in the `Views/Partials` folder in the solu
 
 To create a folder, go to the **Settings** section in the Umbraco backoffice and right-click the **Partial Views** folder. Choose **Create**. Select **Folder**. Enter a folder name and click the **Create** button.
 
-![Created folder](images/folder.png)
+![Created folder](../Design/images/folder.png)
 
 ## Rendering a Partial View
 
@@ -82,8 +82,6 @@ To render the created partial view into any template, use any of these helper me
 
 ### Related Articles
 
-* [Using MVC Partial Views in Umbraco](../../../Reference/Templating/Mvc/partial-views.md)
+* [Using MVC Partial Views in Umbraco](../../Reference/Templating/Mvc/partial-views.md)
 
 ### Video Materials
-
-<iframe width="800" height="450" src="https://www.youtube.com/embed/RcYM_DJ-JnQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
