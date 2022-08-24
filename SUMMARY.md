@@ -125,4 +125,3 @@
 ## Reference
 
 * [Common Pitfalls and Anipatterns](reference/common-pitfalls-and-anipatterns.md)
-* [Language Variation](reference/language-variation.md)
