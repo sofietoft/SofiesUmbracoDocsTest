@@ -4,7 +4,6 @@
 
 ## Fundamentals
 
-* [This is the Fundamentals section](fundamentals/fundamentals.md)
 * [Code](fundamentals/code/README.md)
   * [Creating forms](fundamentals/code/creating-forms.md)
   * [Logging](fundamentals/code/logging.md)
