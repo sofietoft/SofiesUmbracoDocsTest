@@ -9,7 +9,7 @@
   * [Creating forms](fundamentals/code/creating-forms.md)
   * [Logging](fundamentals/code/logging.md)
   * [Source Control](fundamentals/code/source-control.md)
-  * [Debugging](fundamentals/design/debugging.md)
+  * [Debugging](fundamentals/code/debugging.md)
   * [Subscribing to events](fundamentals/code/subscribing-to-events.md)
   * [Subscribing to notifications](fundamentals/code/subscribing-to-notifications.md)
   * [Using Umbraco's service APIs](fundamentals/code/umbraco-services.md)
