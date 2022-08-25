@@ -15,7 +15,7 @@ Menu palceholder.
 
 Step by step tutorials.
 
-<figure><img src=".gitbook/assets/IMG_20220411_205453.jpg" alt=""><figcaption></figcaption></figure>
+![Unicorn images](images/unicorn.jpg)
 
 #### [Umbraco Add ons](Add-ons/index.md)
 
