@@ -30,8 +30,6 @@ There are lots of different possible variations within your working environment 
 
 This documentation can't be an exhaustive list of how to version control Umbraco in all possible scenarios. Hopefully it will give you an insight into the anatomy of how an Umbraco website hangs together and therefore which parts to include in version control and which parts not to.
 
-![Typical set of Umbraco Project Folders](../Code/images/app-data-folders-version8.png)
-
 #### The Umbraco Folder
 
 The main folder where the Umbraco CMS resides in, is the `/umbraco` one inside your project.
