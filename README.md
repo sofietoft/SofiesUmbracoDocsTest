@@ -11,10 +11,6 @@ meta.Title: Umbraco Documentation
 
 ***
 
-#### [Tutorials](broken-reference)
-
-Step by step tutorials. Hej!
-
 #### [Umbraco Add ons](https://github.com/sofietoft/SofiesUmbracoDocsTest/blob/vLatest/Add-ons/index.md)
 
 Everything you need to know about Forms and Courier, the two premium packages developed and supported by HQ.
